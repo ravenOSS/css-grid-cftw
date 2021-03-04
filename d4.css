@@ -5,16 +5,16 @@ body {
 }
 
 header {
-	background: lightpink;
+	background: lightblue;
 	padding: 2rem;
 }
 
 main {
-	background: coral;
+	background: grey;
 }
 
 footer {
-	background: wheat;
+	background: darkgrey;
 	padding: 2rem;
 	text-align: center;
 }

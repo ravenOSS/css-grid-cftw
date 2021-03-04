@@ -4,7 +4,9 @@
 }
 
 body {
+	display: grid;
 	font-family: 'Inter', sans-serif;
+	align-items: center;
 }
 
 .grid-container {
@@ -49,7 +51,7 @@ main {
   font-size: 30px; */
 }
 
-#social {
+.social {
 	background-color: burlywood;
 	grid-area: social;
 	border-radius: var(--main-radius);
@@ -126,7 +128,10 @@ footer {
 	grid-area: footer;
 	border-radius: var(--main-radius);
 	padding-top: var(--main-padding);
+	text-align: center;
 }
+/* query types all, print, screen, speech */
+/* query + rule + css */
 
 @media only screen and (max-width: 550px) {
 	.grid-container {

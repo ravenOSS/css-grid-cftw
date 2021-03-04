@@ -1,6 +1,6 @@
 body {
 	display: grid;
-	height: 100vh;
+	height: 95vh;
 	grid-template-columns: repeat(12, 1fr);
 }
 
@@ -10,7 +10,7 @@ div {
 }
 
 .span-12 {
-	background: lightpink;
+	background: gray;
 	grid-column: 1 / 13;
 }
 

@@ -4,18 +4,18 @@ body {
 	height: 100vh;
 }
 
-.visual {
+.graphic {
 	height: 100px;
 	width: 100%;
-	background: wheat;
+	background: darkgrey;
 	margin: 0.5rem 0;
 }
-
+/* ch is width of 0 (zero) char */
 .card {
 	width: clamp(45ch, 50%, 75ch);
 	display: flex;
 	flex-direction: column;
-	background: lightpink;
+	background: lightgrey;
 	padding: 1rem;
 }
 

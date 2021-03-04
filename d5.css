@@ -1,22 +1,22 @@
 body {
 	display: grid;
-	height: 100vh;
+	height: 95vh;
 	grid-template: auto 1fr auto / auto 1fr auto;
 }
 
 header {
-	background: lightpink;
+	background: lightgray;
 	padding: 2rem;
 	grid-column: 1 / 4;
 }
 
 .left-sidebar {
-	background: lightblue;
+	background: lightgreen;
 	grid-column: 1 / 2;
 }
 
 main {
-	background: coral;
+	background: grey;
 	grid-column: 2 / 3;
 }
 
@@ -26,7 +26,7 @@ main {
 }
 
 footer {
-	background: wheat;
+	background: darkgrey;
 	padding: 2rem;
 	text-align: center;
 	grid-column: 1 / 4;
@@ -37,6 +37,7 @@ body {
 }
 
 .left-sidebar,
+.main,
 .right-sidebar {
 	padding: 1rem;
 }
