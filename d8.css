@@ -4,11 +4,12 @@ body {
 	grid-template-columns: repeat(3, 1fr);
 }
 
-.graphic {
-	height: 100px;
-	width: 100%;
-	background: darkgrey;
-	margin: 0.5rem 0;
+body {
+	font-family: system-ui, sans-serif;
+}
+
+h1 {
+	font-size: 1.5rem;
 }
 
 .card {
@@ -19,10 +20,15 @@ body {
 	padding: 1rem;
 }
 
-body {
-	font-family: system-ui, sans-serif;
+.graphic {
+	height: 200px;
+	width: 100%;
+	background: darkgrey;
+	margin: 0.5rem 0;
 }
-
-h1 {
-	font-size: 1.5rem;
+.graphic3 {
+	height: 300px;
+	width: 100%;
+	background: darkgrey;
+	margin: 0.5rem 0;
 }

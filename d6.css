@@ -20,7 +20,7 @@ div {
 }
 
 .span-4 {
-	background: coral;
+	background: darkgrey;
 	grid-column: 4 / 9;
 }
 

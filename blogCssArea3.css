@@ -7,26 +7,27 @@ body {
 	font-family: 'Inter', sans-serif;
 }
 
-/* .parent { */
-/* display: grid; */
-/* align-items: center; */
-/* justify-items: center; */
-/* place-items: center; */
-/* background: lightblue; */
-/* width: 500px;
-	height: 500px; */
-/* resize: both;
-	overflow: auto; */
-/* } */
+.parent {
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	place-items: center;
+	background: lightblue;
+	width: 100%;
+	height: 100%;
+	/* resize: both; */
+	/* overflow: auto; */
+}
 
 .grid-container {
 	display: grid;
 	height: 98vh;
+	width: 50vw;
 	grid-template-columns: 0.3fr 1fr 1fr 1fr 1fr 0.2fr;
 	grid-template-rows: 0.4fr 2fr 4fr 4fr 0.4fr;
 	grid-template-areas:
-		'social nav nav nav profile'
-		'social main main main  profile'
+		'nav nav nav nav profile'
+		'main main main main  profile'
 		'social card1 card2 card3 sidebar'
 		'social card4 card5 card6 sidebar'
 		'social footer footer footer sidebar';
@@ -34,7 +35,7 @@ body {
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 1rem;
-	color: darkblue;
+	color: #404040;
 	text-align: center;
 	/* align-items: center; */
 	/* justify-items: center; */
@@ -42,7 +43,7 @@ body {
 }
 
 .navbar {
-	background: darkorange;
+	background: #e8e8e8;
 	grid-area: nav;
 	border-radius: var(--main-radius);
 	padding-top: var(--main-padding);
@@ -54,7 +55,7 @@ body {
 ul {
 	list-style-type: none;
 	font-size: 14px;
-	color: darkblue;
+	color: #404040;
 }
 .navbar ul {
 	/* grid-area: nav; */
@@ -80,15 +81,15 @@ ul {
 } */
 
 main {
-	background-color: grey;
-	grid-column: 2/5;
+	background-color: #e8e8e8;
+	grid-column: 1/5;
 	grid-row: 2/3;
 	border-radius: var(--main-radius);
 	padding-top: var(--main-padding);
 }
 
 #profile {
-	background-color: red;
+	background-color: #e8e8e8;
 	grid-area: profile;
 	border-radius: var(--main-radius);
 	padding-top: var(--main-padding);
@@ -97,7 +98,7 @@ main {
 }
 
 .social {
-	background-color: lightslategray;
+	background-color: #e8e8e8;
 	grid-area: social;
 	border-radius: var(--main-radius);
 	padding-top: var(--main-padding);
@@ -113,7 +114,7 @@ main {
 }
 
 #sidebar {
-	background-color: darkorange;
+	background-color: #e8e8e8;
 	grid-area: sidebar;
 	border-radius: var(--main-radius);
 	padding-top: var(--main-padding);
@@ -122,61 +123,61 @@ main {
 }
 
 #card1 {
-	background-color: peru;
+	background-color: #e8e8e8;
 	grid-area: card1;
 	border-radius: var(--main-radius);
 	padding-top: var(--main-padding);
 }
 
 #card2 {
-	background-color: peru;
+	background-color: #e8e8e8;
 	grid-area: card2;
 	border-radius: var(--main-radius);
 	padding-top: var(--main-padding);
 }
 
 #card3 {
-	background-color: peru;
+	background-color: #e8e8e8;
 	grid-area: card3;
 	border-radius: var(--main-radius);
 	padding-top: var(--main-padding);
 }
 
 #card4 {
-	background-color: peru;
+	background-color: #e8e8e8;
 	grid-area: card4;
 	border-radius: var(--main-radius);
 	padding-top: var(--main-padding);
 }
 
 #card5 {
-	background-color: peru;
+	background-color: #e8e8e8;
 	grid-area: card5;
 	border-radius: var(--main-radius);
 	padding-top: var(--main-padding);
 }
 
 #card6 {
-	background-color: peru;
+	background-color: #e8e8e8;
 	grid-area: card6;
 	border-radius: var(--main-radius);
 	padding-top: var(--main-padding);
 }
 #card7 {
-	background-color: peru;
+	background-color: #e8e8e8;
 	grid-area: card7;
 	border-radius: var(--main-radius);
 	padding-top: var(--main-padding);
 }
 #card8 {
-	background-color: peru;
+	background-color: #e8e8e8;
 	grid-area: card8;
 	border-radius: var(--main-radius);
 	padding-top: var(--main-padding);
 }
 
 footer {
-	background-color: darkorange;
+	background-color: #e8e8e8;
 	grid-area: footer;
 	border-radius: var(--main-radius);
 	padding-top: var(--main-padding);
